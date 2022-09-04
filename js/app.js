@@ -110,6 +110,7 @@ function rnNext() {
     updateTime();
     dateChanged = true;
     dateChangedOnce = true;
+    closeMenuPanel()
 }
 
 function rnPrev() {
@@ -118,6 +119,7 @@ function rnPrev() {
     updateTime();
     dateChanged = true;
     dateChangedOnce = true;
+    closeMenuPanel()
 }
 
 function updateRn(rnE) {
